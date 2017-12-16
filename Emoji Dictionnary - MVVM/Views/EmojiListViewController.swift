@@ -1,6 +1,6 @@
 //
-//  EmojiDefunitionViewController.swift
-//  Emoji Dictionary
+//  EmojiListViewController.swift
+//  Emoji Dictionnary MVVM
 //
 //  Created by Scott moon on 17/12/2017.
 //  Copyright © 2017 Scott moon. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EmojiDefinitionViewController: UIViewController {
+class EmojiListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

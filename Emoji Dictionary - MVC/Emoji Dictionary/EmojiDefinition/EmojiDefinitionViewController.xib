@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmojiDefinitionViewController" customModule="Emoji_Dictionary" customModuleProvider="target">
+            <connections>
+                <outlet property="birthLabel" destination="8uZ-Ax-U2S" id="vas-Sg-QYx"/>
+                <outlet property="categoryLabel" destination="icX-pU-yFk" id="L7M-Y2-OMq"/>
+                <outlet property="emojiDefinitionLable" destination="Fvb-UK-Zwl" id="Qzd-eX-eyt"/>
+                <outlet property="emojiLable" destination="8kd-FB-8Td" id="MTm-FV-Va4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🏎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kd-FB-8Td">
+                    <rect key="frame" x="62.5" y="40" width="250" height="274.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="230"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A racecar sponsored by Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvb-UK-Zwl">
+                    <rect key="frame" x="10" y="636" width="355" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth Year: 2013" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uZ-Ax-U2S">
+                    <rect key="frame" x="10" y="605" width="355" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Transportation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icX-pU-yFk">
+                    <rect key="frame" x="10" y="574" width="355" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Fvb-UK-Zwl" firstAttribute="top" secondItem="8uZ-Ax-U2S" secondAttribute="bottom" constant="10" id="8GI-Pw-2dz"/>
+                <constraint firstItem="8uZ-Ax-U2S" firstAttribute="top" secondItem="icX-pU-yFk" secondAttribute="bottom" constant="10" id="A8m-Fu-6h9"/>
+                <constraint firstItem="icX-pU-yFk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="Eqe-r2-5go"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="icX-pU-yFk" secondAttribute="trailing" constant="10" id="FQx-PN-HcZ"/>
+                <constraint firstItem="8kd-FB-8Td" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="JyA-ZW-r5Y"/>
+                <constraint firstItem="8kd-FB-8Td" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="U6G-kC-jNa"/>
+                <constraint firstItem="Fvb-UK-Zwl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZPO-WX-ZF7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Fvb-UK-Zwl" secondAttribute="bottom" constant="10" id="cjI-ES-9Qg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Fvb-UK-Zwl" secondAttribute="trailing" constant="10" id="pJz-2u-DWK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8uZ-Ax-U2S" secondAttribute="trailing" constant="10" id="qtf-gs-4Sc"/>
+                <constraint firstItem="Fvb-UK-Zwl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="upu-4z-9AA"/>
+                <constraint firstItem="8uZ-Ax-U2S" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="xph-1Y-E75"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EmojiCell: UITableViewCell {
+class EmojiCell: UITableViewCell, ReusableView, NibLoadableView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
